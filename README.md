@@ -7,7 +7,7 @@ Projeto simples de teste desenvolvido com Cypress/JS para avaliação técnica.
 
 ## Comandos para clonar o projeto
 git clone https://github.com/PamelaOsorio/Projeto-Cypress-QuadroKanban.git
-Cd repositório
+CD repositório
 
 ## Comando para instalação de dependencias
 npm install
