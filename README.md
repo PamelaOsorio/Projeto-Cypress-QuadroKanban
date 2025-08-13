@@ -6,15 +6,15 @@ Projeto simples de teste desenvolvido com Cypress/JS para avaliação técnica.
 - Node.js (versão utilizada 24.5.0)
 
 ## Comandos para clonar o projeto
-git clone https://github.com/PamelaOsorio/Projeto-Cypress-QuadroKanban.git
-CD repositório
+- git clone https://github.com/PamelaOsorio/Projeto-Cypress-QuadroKanban.git
+- CD repositório
 
 ## Comando para instalação de dependencias
 npm install
 
 ## Comandos para instalar o cypress
-npm install cypress --save-dev
-npx cypress install 
+- npm install cypress --save-dev
+- npx cypress install 
 
 
 ## Comando para teste 
