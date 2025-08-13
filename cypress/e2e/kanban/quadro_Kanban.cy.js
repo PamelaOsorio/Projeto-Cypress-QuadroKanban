@@ -7,7 +7,7 @@ describe('Validação do Quadro Kanban', () => {
 
   })
 
-  it('Adicionando e validando a inserção de uma nova lista',() => {
+  it('Validar a criação de uma lista',() => {
    // Dado que estou na tela do quadro Kanban
    // E clico no botão "Adicionar outra lista" 
    // E digito o nome de uma lista nova
@@ -19,7 +19,7 @@ describe('Validação do Quadro Kanban', () => {
   })
 
  
- it('Excluindo e validando a lista criada', () => {
+ it('Validar a exclusão de uma lista', () => {
    // Dado que estou na tela do quadro Kanban
    // E tenho criado a lista "To Home"
    // Quando clicar no elemento de exclusão
@@ -31,7 +31,7 @@ describe('Validação do Quadro Kanban', () => {
    
   }) 
 
-   it('Adicionando e validando a inserção de uma nova tarefa', () => {
+   it('Validar a criação de uma tarefa', () => {
    // Dado que estou na tela do quadro Kanban
    // E clico no botão "Adicionar tarefa" 
    // E digito o nome de uma tarefa nova
@@ -42,7 +42,7 @@ describe('Validação do Quadro Kanban', () => {
 
   })
 
-   it('Editando e validando a tarefa', () => {
+   it('Validar a edição de uma tarefa', () => {
    // Dado que estou na tela do quadro Kanban
    // E tenho uma tarefa adicionada
    // E clico sobre a tarefa
@@ -53,7 +53,7 @@ describe('Validação do Quadro Kanban', () => {
     cy.verificarTarefaNova('Documentação e Escopo')
   }) 
 
-  it ('Excluindo E validando tarefa criada', () => {
+  it ('Validar a exclusão de uma tarefa', () => {
    // Dado que estou na tela do quadro Kanban
    // E tenho criado a tarefa "API" criada
    // Quando clicar no elemento de exclusão
@@ -64,7 +64,7 @@ describe('Validação do Quadro Kanban', () => {
     cy.verificarTarefaExcluida('API')
   })
 
-  it('Adicionar tag', () => {
+  it('Validar a criação de uma tag', () => {
    // Dado que estou na tela do quadro Kanban
    // E clico sobre a tarefa
    // E clico em uma cor
@@ -77,7 +77,7 @@ describe('Validação do Quadro Kanban', () => {
 
   }) 
    
-   it('Adicionar mais de uma tag com cores e textos diferentes', () => {
+   it('Validar a criação de mais de uma tag com cores e textos diferentes', () => {
    // Dado que estou na tela do quadro Kanban
    // E clico sobre a tarefa 
    // Qunado digitar varias tags em cores diferentes
@@ -91,7 +91,7 @@ describe('Validação do Quadro Kanban', () => {
 
   }) 
 
-   it( 'Validação para não permitir adicionar mais de uma tag com o mesmo texto', () => {
+   it( 'Validar a criação para não permitir mais de uma tag com o mesmo texto', () => {
    // Dado que estou na tela do quadro Kanban
    // E clico sobre a tarefa 
    // Qunado digitar a mesma tag em cores diferentes
